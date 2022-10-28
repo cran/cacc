@@ -1,0 +1,11 @@
+citHeader("To cite cacc in publications use:")
+
+citEntry(
+  entry    = "Misc",
+  title    = meta$Title,
+  author   = c(person(given = "Asier", family = "Moneva"), person(given = "Miriam", family = "Esteve"), person(given = "Timothy", family = "Hart", middle = "C.")),
+  year     = meta$Date,
+  note     = sprintf("R package version %s", meta$Version),
+  url      = meta$URL,
+  textVersion = paste0("Asier Moneva, Miriam Esteve, & Timothy C. Hart (", meta$Date, "). cacc: Conjunctive Analysis of Case Configurations. ", sprintf("R package version %s", meta$Version), ".")
+)
