@@ -1,7 +1,7 @@
 Package: cacc
 Title: Conjunctive Analysis of Case Configurations
-Version: 0.1.0
-Date: 2022-10-20
+Version: 0.1.1
+Date: 2024-10-03
 Authors@R: c(
     person(given = "Asier", family = "Moneva", email = "amoneva@nscr.nl", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2156-0213")), 
     person(given = "Miriam", family = "Esteve", email = "miriam.estevec@umh.es", role = "aut"), 
@@ -14,13 +14,13 @@ RoxygenNote: 7.2.1
 URL: https://github.com/amoneva/cacc
 BugReports: https://github.com/amoneva/cacc/issues
 Imports: dplyr, ggplot2, rlang, stats, tibble, tidyr
-Depends: R (>= 2.10)
+Depends: R (>= 4.1)
 LazyData: true
 NeedsCompilation: no
-Packaged: 2022-10-27 12:31:16 UTC; amoneva
+Packaged: 2024-10-03 16:10:21 UTC; amone
 Author: Asier Moneva [aut, cre] (<https://orcid.org/0000-0002-2156-0213>),
   Miriam Esteve [aut],
   Timothy C. Hart [aut]
 Maintainer: Asier Moneva <amoneva@nscr.nl>
 Repository: CRAN
-Date/Publication: 2022-10-28 17:10:12 UTC
+Date/Publication: 2024-10-03 16:20:02 UTC
